@@ -26,7 +26,7 @@
                                     Text="Student I.D."></asp:Label>
                             </td>
                             <td style="width: 543px" valign="middle">
-                                <asp:TextBox ID="txtStudentID" runat="server" Width="270px"></asp:TextBox>
+                                <asp:TextBox ID="txtStudentID" runat="server" Width="272px"></asp:TextBox>
                                 <asp:RequiredFieldValidator ID="rfvStudentID" runat="server" 
                                     ErrorMessage="Student ID should not be blank" ControlToValidate="txtStudentID" 
                                     Font-Bold="True" ForeColor="#FF3300">*</asp:RequiredFieldValidator>
@@ -44,7 +44,7 @@
                                     Text="Reason for cancel"></asp:Label>
                                 </td>
                             <td style="width: 543px; height: 24px;" valign="top">
-                                <asp:TextBox ID="txtComments" runat="server" Width="273px" Height="69px"></asp:TextBox>
+                                <asp:TextBox ID="txtComments" runat="server" Width="272px" Height="69px"></asp:TextBox>
                             </td>
                             <td valign="middle" style="height: 24px">
                                 </td>
